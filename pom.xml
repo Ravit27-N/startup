@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.ravit</groupId>
 	<artifactId>startup</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>startup</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -91,7 +91,7 @@
 					</docker>
 					<image>
 						<publish>true</publish>
-						<name>http://localhost:8087//startup:1.0.0-uat</name>
+						<name>http://localhost:8087/startup:1.0.0-uat</name>
 					</image>
 				</configuration>
 			</plugin>
